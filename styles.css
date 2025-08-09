@@ -10,12 +10,13 @@ body {
 
 .container {
     width: 760px;
-    height: auto;
+    height: 550px;
     padding: 10px;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .flex-item {
@@ -23,7 +24,7 @@ body {
     border-radius: 12px;
     padding: 10px;
     width: 200px;
-    height: auto;
+    height: 480px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -63,10 +64,18 @@ a {
     border-radius: 12px;
     padding: 10px;
     width: 200px;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    
+    height: 520px;
+}
+
+.most-popular {
+    background-color: beige;
+    color: rgb(74, 17, 245);
+    text-align: center;
+    margin-top: 47px;
+    font-family: 'Geneva';
+    padding: 5px 15px;
 }
