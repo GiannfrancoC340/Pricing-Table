@@ -58,14 +58,6 @@ a {
     font-family: 'Helvetica';
 }
 
-.banner {
-    background-color: beige;
-    color: rgb(74, 17, 245);
-    padding: 10px;
-    position: absolute;
-    top: 60px;
-}
-
 .middle-item {
     background-color: white;
     border-radius: 12px;
